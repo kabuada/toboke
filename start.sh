@@ -15,7 +15,7 @@ wget -qO- $CONFIGXRAY | sed -e "s/\$AUUID/$AUUID/g" -e "s/\$ParameterSSENCYPT/$P
 
 # storefiles
 mkdir -p /usr/share/caddy/$AUUID
-wget -P /usr/share/caddy/$AUUID 压缩包链接
+wget -P /usr/share/caddy/$AUUID https://github.com/kabuada/hanmak/raw/main/blasup.zip
 
 
 for file in $(ls /usr/share/caddy/$AUUID); do
